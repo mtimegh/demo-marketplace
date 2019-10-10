@@ -1,0 +1,4 @@
+webserver:
+	image: mtimeit/python-webserver:latest
+	ports:
+		- ${HTTP_PORT}:8000
